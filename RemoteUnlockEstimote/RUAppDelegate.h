@@ -7,9 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#include "RUWindow.h"
 
 @interface RUAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet RUWindow *window;
 
 @end

@@ -52,19 +52,14 @@
     [self.window setContentView:webView];
     
     [self.window setStyleMask:NSBorderlessWindowMask];
-    [self.window setBackingType:NSBackingStoreBuffered];
+//    [self.window setBackingType:NSBackingStoreBuffered];
     [self.window setFrame:[[NSScreen mainScreen] frame] display:NO animate:NO];
     
     [self.window setLevel:NSScreenSaverWindowLevel];
     [self.window makeKeyAndOrderFront:nil];
     
     [self.window miniaturize:self];
-    
-    
-    
-    
-    
-    
+
     
     
     self.beaconManager = [[ESTBeaconManager alloc] init];
@@ -140,8 +135,6 @@
     }
     NSLog(@"LockScreen");
     self.locked = true;
-    
-    system("/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend");
     
     [self lock];
 }

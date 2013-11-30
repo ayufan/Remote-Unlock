@@ -15,6 +15,7 @@
 		40CA23FC184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */; };
 		40CA23FE184A2C22009DFDDB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA23FD184A2C22009DFDDB /* WebKit.framework */; };
 		40CA2400184A2C35009DFDDB /* libEstimoteMacSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */; };
+		40CA2403184A2E79009DFDDB /* RUWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CA2402184A2E79009DFDDB /* RUWindow.m */; };
 		CB281ECE1849FC6E0095C6C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */; };
 		CB281ED81849FC6E0095C6C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB281ED61849FC6E0095C6C1 /* InfoPlist.strings */; };
 		CB281EDA1849FC6E0095C6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB281ED91849FC6E0095C6C1 /* main.m */; };
@@ -37,6 +38,8 @@
 		40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tumblr_mpoywoyEut1s56exfo1_400.gif; sourceTree = "<group>"; };
 		40CA23FD184A2C22009DFDDB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteMacSDK.a; path = EstimoteSDK/libEstimoteMacSDK.a; sourceTree = "<group>"; };
+		40CA2401184A2E79009DFDDB /* RUWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUWindow.h; sourceTree = "<group>"; };
+		40CA2402184A2E79009DFDDB /* RUWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUWindow.m; sourceTree = "<group>"; };
 		CB281ECA1849FC6E0095C6C1 /* RemoteUnlockEstimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteUnlockEstimote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CB281ED01849FC6E0095C6C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -144,6 +147,8 @@
 				CB281EE21849FC6E0095C6C1 /* MainMenu.xib */,
 				CB281EE51849FC6E0095C6C1 /* Images.xcassets */,
 				CB281ED41849FC6E0095C6C1 /* Supporting Files */,
+				40CA2401184A2E79009DFDDB /* RUWindow.h */,
+				40CA2402184A2E79009DFDDB /* RUWindow.m */,
 			);
 			path = RemoteUnlockEstimote;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 			files = (
 				CB281EDA1849FC6E0095C6C1 /* main.m in Sources */,
 				CB281EE11849FC6E0095C6C1 /* RUAppDelegate.m in Sources */,
+				40CA2403184A2E79009DFDDB /* RUWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
