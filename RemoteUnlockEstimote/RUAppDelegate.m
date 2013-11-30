@@ -13,9 +13,9 @@
 #import <WebKit/WebKit.h>
 
 #define BEACON_UUID @"f1eed054ac4e"
-#define LOCK_SIGNAL -70
-#define UNLOCK_SIGNAL -70
-#define LOCK_DELAY 2
+#define LOCK_SIGNAL -80
+#define UNLOCK_SIGNAL -75
+#define LOCK_DELAY 2.0
 #define UNLOCK_DELAY 0.5
 
 @interface RUAppDelegate () <ESTBeaconManagerDelegate, ESTBeaconDelegate>
@@ -59,14 +59,19 @@
     [self.window makeKeyAndOrderFront:nil];
     
     [self.window miniaturize:self];
-
-    
     
     self.beaconManager = [[ESTBeaconManager alloc] init];
     self.beaconManager.delegate = self;
     
-    ESTBeaconRegion *region = [[ESTBeaconRegion alloc] initRegionWithIdentifier:@"dd"];
+    ESTBeaconRegion *region = [[ESTBeaconRegion alloc] initRegionWithIdentifier:@"dd"];file:///Users/ayufan/Library/Developer/Xcode/DerivedData/RemoteUnlockEstimote-ftcyavmbtwdtasgfnlupkotoewte/Build/Products/Debug/RemoteUnlockEstimote.app/Contents/Resources/background.jpg
     [self.beaconManager startEstimoteBeaconsDiscoveryForRegion:region];
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification
+{
+    if(self.locked) {
+        system("/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend");
+    }
 }
 
 -(void)beaconManager:(ESTBeaconManager *)manager
@@ -84,7 +89,7 @@
     }
     
     if(beacon) {
-        NSLog(@"BeaconFound: mac:%@ power:%f rssi:%f", beacon.macAddress, [beacon.measuredPower floatValue], [beacon.rssi floatValue]);
+        NSLog(@"BeaconFound(%i): mac:%@ power:%f rssi:%f", [beacons count], beacon.macAddress, [beacon.measuredPower floatValue], [beacon.rssi floatValue]);
     } else {
         // NSLog(@"BeaconNotFound");
     }
@@ -135,6 +140,8 @@
     }
     NSLog(@"LockScreen");
     self.locked = true;
+    
+    // system("/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend");
     
     [self lock];
 }
@@ -204,6 +211,7 @@
     NSSound *sound = [[NSSound alloc] initWithContentsOfFile:resourcePath byReference:YES];
     [sound play];
     [self.window setFrame:[[NSScreen mainScreen] frame] display:YES animate:YES];
+    [self.window deminiaturize:self];
 }
 
 @end
