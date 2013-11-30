@@ -27,6 +27,7 @@
 		CB281F041849FD9D0095C6C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F031849FD9D0095C6C1 /* CoreLocation.framework */; };
 		CB281F061849FDB90095C6C1 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F051849FDB90095C6C1 /* IOBluetooth.framework */; };
 		CB281F081849FDC90095C6C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */; };
+		CB4EDBE2184A36C30056E382 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = CB4EDBE1184A36C30056E382 /* app.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		CB281F051849FDB90095C6C1 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CB281F09184A00290095C6C1 /* RemoteUnlockEstimote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RemoteUnlockEstimote.entitlements; sourceTree = "<group>"; };
+		CB4EDBE1184A36C30056E382 /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = app.icns; path = RemoteUnlockEstimote/app.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		CB281EC11849FC6E0095C6C1 = {
 			isa = PBXGroup;
 			children = (
+				CB4EDBE1184A36C30056E382 /* app.icns */,
 				40CA23F0184A2BCD009DFDDB /* unlock.mp3 */,
 				40CA23F1184A2BCD009DFDDB /* lock.mp3 */,
 				40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */,
@@ -235,6 +238,7 @@
 				CB281EDE1849FC6E0095C6C1 /* Credits.rtf in Resources */,
 				CB281EE41849FC6E0095C6C1 /* MainMenu.xib in Resources */,
 				40CA23FA184A2BCD009DFDDB /* background.jpg in Resources */,
+				CB4EDBE2184A36C30056E382 /* app.icns in Resources */,
 				40CA23F9184A2BCD009DFDDB /* lock.html in Resources */,
 				40CA23F8184A2BCD009DFDDB /* lock.mp3 in Resources */,
 			);

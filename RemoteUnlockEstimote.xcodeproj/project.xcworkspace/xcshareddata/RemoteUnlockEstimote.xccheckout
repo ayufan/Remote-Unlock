@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>900F73CB-26E7-4DC4-A5AA-E9DF4E907E52</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RemoteUnlockEstimote</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</key>
+		<string>ssh://github.com/ayufan/Remote-Unlock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RemoteUnlockEstimote.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ayufan/Remote-Unlock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RemoteUnlockEstimote</string>
+		</dict>
+	</array>
+</dict>
+</plist>
