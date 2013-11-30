@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://dl.dropboxusercontent.com/u/858551/lock.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+  <meta charset="utf-8">
+  <style type="text/css">
+      
+
+      
+    body {
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+      background-position:center;
+        font-family: "Verdana"; overflow:hidden}
+  #back {overflow:hidden; position:absolute; left: 0px; top: 0px; width: 100% }
+    time
+    {
+        left: 0px;
+        text-align: center;
+      font-size: 50px;
+      color: #FFF; 
+      position: absolute;
+      top: 20px;
+      right: 0px;
+      text-shadow: 1px 2px #000;
+    }
+    datetime {
+        left: 0px;
+        text-align: center;
+      font-size: 20px;
+      color: #FFF; 
+      position: absolute;
+      top: 80px;
+      right: 0px;
+      text-shadow: 2px 2px #000;
+    }
+    #unlock 
+    {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      margin-left: -145px;
+    }
+  
+  @-webkit-keyframes pulsate {
+      0% {-webkit-transform: scale(0.5, 0.5); opacity: 0.0;}
+      25% {-webkit-transform: scale(0.55, 0.55); opacity: 0.5;}
+      50% {-webkit-transform: scale(0.6, 0.6); opacity: 1.0;}
+      75% {-webkit-transform: scale(0.55, 0.55); opacity: 0.5;}
+      100% {-webkit-transform: scale(0.5, 0.5); opacity: 0.0;}
+  }
+  
+  #logo {
+      -webkit-animation: pulsate 2s linear;
+      -webkit-animation-iteration-count: infinite;
+      opacity: 0.0;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      width: 200px;
+  }
+  
+  #text {
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      color: red;
+      font-size: 30px;
+      font-family: "Comic Sans MS"
+  }
+  
+  
+  </style>
+<style type="text/css"></style></head>
+<body>
+    <img src="background.jpg" id="back"/>
+  <time>14:42:05</time>
+  <datetime>Sat Nov 30 2013</datetime>
+  
+      
+        <img src="estimote-logo-square.png" id="logo"/>
+      
+      <marquee id="text" >Estimote Lock Screen</marquee>
+      
+  <script>
+    
+    function checkTime(i) { if (i<10) { i="0" + i; } return i; }    
+    
+    function updateClock() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      
+      document.getElementsByTagName('time')[0].innerHTML = h + ':' + m + ':' + s;
+      document.getElementsByTagName('datetime')[0].innerHTML =
+        '' + today.toDateString();
+      setTimeout(function(){ updateClock() }, 500);
+    }
+  
+    updateClock();
+    
+</script>
+  
+
+  
+
+</body></html>

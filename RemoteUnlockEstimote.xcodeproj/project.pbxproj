@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40CA23F7184A2BCD009DFDDB /* unlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F0184A2BCD009DFDDB /* unlock.mp3 */; };
+		40CA23F8184A2BCD009DFDDB /* lock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F1184A2BCD009DFDDB /* lock.mp3 */; };
+		40CA23F9184A2BCD009DFDDB /* lock.html in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F2184A2BCD009DFDDB /* lock.html */; };
+		40CA23FA184A2BCD009DFDDB /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F4184A2BCD009DFDDB /* background.jpg */; };
+		40CA23FB184A2BCD009DFDDB /* estimote-logo-square.png in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */; };
+		40CA23FC184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */; };
+		40CA23FE184A2C22009DFDDB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA23FD184A2C22009DFDDB /* WebKit.framework */; };
+		40CA2400184A2C35009DFDDB /* libEstimoteMacSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */; };
 		CB281ECE1849FC6E0095C6C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */; };
 		CB281ED81849FC6E0095C6C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB281ED61849FC6E0095C6C1 /* InfoPlist.strings */; };
 		CB281EDA1849FC6E0095C6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB281ED91849FC6E0095C6C1 /* main.m */; };
@@ -21,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40CA23F0184A2BCD009DFDDB /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = unlock.mp3; path = RemoteUnlockEstimote/unlock.mp3; sourceTree = "<group>"; };
+		40CA23F1184A2BCD009DFDDB /* lock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lock.mp3; path = RemoteUnlockEstimote/lock.mp3; sourceTree = "<group>"; };
+		40CA23F2184A2BCD009DFDDB /* lock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = lock.html; path = RemoteUnlockEstimote/lock.html; sourceTree = "<group>"; };
+		40CA23F4184A2BCD009DFDDB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estimote-logo-square.png"; sourceTree = "<group>"; };
+		40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tumblr_mpoywoyEut1s56exfo1_400.gif; sourceTree = "<group>"; };
+		40CA23FD184A2C22009DFDDB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteMacSDK.a; path = EstimoteSDK/libEstimoteMacSDK.a; sourceTree = "<group>"; };
 		CB281ECA1849FC6E0095C6C1 /* RemoteUnlockEstimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteUnlockEstimote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CB281ED01849FC6E0095C6C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -48,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CA2400184A2C35009DFDDB /* libEstimoteMacSDK.a in Frameworks */,
+				40CA23FE184A2C22009DFDDB /* WebKit.framework in Frameworks */,
 				CB281F081849FDC90095C6C1 /* SystemConfiguration.framework in Frameworks */,
 				CB281F061849FDB90095C6C1 /* IOBluetooth.framework in Frameworks */,
 				CB281F041849FD9D0095C6C1 /* CoreLocation.framework in Frameworks */,
@@ -59,9 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40CA23F3184A2BCD009DFDDB /* lock_files */ = {
+			isa = PBXGroup;
+			children = (
+				40CA23F4184A2BCD009DFDDB /* background.jpg */,
+				40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */,
+				40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */,
+			);
+			name = lock_files;
+			path = RemoteUnlockEstimote/lock_files;
+			sourceTree = "<group>";
+		};
 		CB281EC11849FC6E0095C6C1 = {
 			isa = PBXGroup;
 			children = (
+				40CA23F0184A2BCD009DFDDB /* unlock.mp3 */,
+				40CA23F1184A2BCD009DFDDB /* lock.mp3 */,
+				40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */,
+				40CA23F2184A2BCD009DFDDB /* lock.html */,
+				40CA23F3184A2BCD009DFDDB /* lock_files */,
 				CB281ED31849FC6E0095C6C1 /* RemoteUnlockEstimote */,
 				CB281ECC1849FC6E0095C6C1 /* Frameworks */,
 				CB281ECB1849FC6E0095C6C1 /* Products */,
@@ -79,6 +113,7 @@
 		CB281ECC1849FC6E0095C6C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40CA23FD184A2C22009DFDDB /* WebKit.framework */,
 				CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */,
 				CB281F051849FDB90095C6C1 /* IOBluetooth.framework */,
 				CB281F031849FD9D0095C6C1 /* CoreLocation.framework */,
@@ -187,10 +222,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CA23FC184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif in Resources */,
 				CB281ED81849FC6E0095C6C1 /* InfoPlist.strings in Resources */,
+				40CA23FB184A2BCD009DFDDB /* estimote-logo-square.png in Resources */,
+				40CA23F7184A2BCD009DFDDB /* unlock.mp3 in Resources */,
 				CB281EE61849FC6E0095C6C1 /* Images.xcassets in Resources */,
 				CB281EDE1849FC6E0095C6C1 /* Credits.rtf in Resources */,
 				CB281EE41849FC6E0095C6C1 /* MainMenu.xib in Resources */,
+				40CA23FA184A2BCD009DFDDB /* background.jpg in Resources */,
+				40CA23F9184A2BCD009DFDDB /* lock.html in Resources */,
+				40CA23F8184A2BCD009DFDDB /* lock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +357,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/ayufan/Sources/RemoteUnlockEstimote/EstimoteSDK,
+					"/Users/konradrodzik/Remote-Unlock-New/EstimoteSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/EstimoteSDK/Headers";
@@ -335,6 +377,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/ayufan/Sources/RemoteUnlockEstimote/EstimoteSDK,
+					"/Users/konradrodzik/Remote-Unlock-New/EstimoteSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/EstimoteSDK/Headers";

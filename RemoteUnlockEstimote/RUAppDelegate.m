@@ -10,6 +10,7 @@
 #import "ESTBeaconManager.h"
 #import "ESTBeaconRegion.h"
 #import "ESTBeacon.h"
+#import <WebKit/WebKit.h>
 
 #define BEACON_UUID @"f1eed054ac4e"
 #define LOCK_SIGNAL -70
@@ -33,6 +34,39 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    
+    NSRect screenRect = [[NSScreen mainScreen] frame];
+    
+    WebView *webView = [[WebView alloc] init];
+    [webView setHidden:FALSE];
+    
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"lock"
+                                                         ofType:@"html"
+                                                    inDirectory:@""];
+    NSURL* fileURL = [NSURL fileURLWithPath:filePath];
+    //    NSURL *url = [NSURL URLWithString:@"https://dl.dropboxusercontent.com/u/858551/lock.html"];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:fileURL];
+    [[webView mainFrame] loadRequest:urlRequest];
+    [webView setFrame:screenRect];
+    
+    [self.window setContentView:webView];
+    
+    [self.window setStyleMask:NSBorderlessWindowMask];
+    [self.window setBackingType:NSBackingStoreBuffered];
+    [self.window setFrame:[[NSScreen mainScreen] frame] display:NO animate:NO];
+    
+    [self.window setLevel:NSScreenSaverWindowLevel];
+    [self.window makeKeyAndOrderFront:nil];
+    
+    [self.window miniaturize:self];
+    
+    
+    
+    
+    
+    
+    
+    
     self.beaconManager = [[ESTBeaconManager alloc] init];
     self.beaconManager.delegate = self;
     
@@ -108,6 +142,8 @@
     self.locked = true;
     
     system("/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend");
+    
+    [self lock];
 }
 
 - (void) scheduleUnlockScreen:(NSNumber*)rssi
@@ -156,6 +192,25 @@
     //system("defaults write com.apple.screensaver askForPassword 0");
     //system("/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -switchToUserID 501");
     //system("defaults write com.apple.screensaver askForPassword 1");
+    
+    
+    [self unlock];
+}
+
+- (void)unlock {
+    NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"unlock" ofType:@"mp3"];
+    NSSound *sound = [[NSSound alloc] initWithContentsOfFile:resourcePath byReference:YES];
+    [sound play];
+    
+    [[self window] miniaturize:self];
+    
+}
+
+- (void)lock {
+    NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"lock" ofType:@"mp3"];
+    NSSound *sound = [[NSSound alloc] initWithContentsOfFile:resourcePath byReference:YES];
+    [sound play];
+    [self.window setFrame:[[NSScreen mainScreen] frame] display:YES animate:YES];
 }
 
 @end
