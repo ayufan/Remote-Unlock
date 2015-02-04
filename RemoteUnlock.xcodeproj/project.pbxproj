@@ -43,9 +43,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40CA23F0184A2BCD009DFDDB /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = unlock.mp3; path = RemoteUnlockEstimote/unlock.mp3; sourceTree = "<group>"; };
-		40CA23F1184A2BCD009DFDDB /* lock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lock.mp3; path = RemoteUnlockEstimote/lock.mp3; sourceTree = "<group>"; };
-		40CA23F2184A2BCD009DFDDB /* lock.html */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text.html; name = lock.html; path = RemoteUnlockEstimote/lock.html; sourceTree = "<group>"; };
+		40CA23F0184A2BCD009DFDDB /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = unlock.mp3; path = RemoteUnlock/unlock.mp3; sourceTree = "<group>"; };
+		40CA23F1184A2BCD009DFDDB /* lock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lock.mp3; path = RemoteUnlock/lock.mp3; sourceTree = "<group>"; };
+		40CA23F2184A2BCD009DFDDB /* lock.html */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text.html; name = lock.html; path = RemoteUnlock/lock.html; sourceTree = "<group>"; };
 		40CA23F4184A2BCD009DFDDB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estimote-logo-square.png"; sourceTree = "<group>"; };
 		40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tumblr_mpoywoyEut1s56exfo1_400.gif; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		AC65E06F76180603E58252A3 /* JSTGyroscopeSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTGyroscopeSensor.m; sourceTree = "<group>"; };
 		AC65E1C4CDB81642E9F07F39 /* JSTAccelerometerSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTAccelerometerSensor.m; sourceTree = "<group>"; };
 		AC65E24CA870F8C8917D563D /* JSTKeysSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTKeysSensor.m; sourceTree = "<group>"; };
-		AC65E269D228DDACCB25BBCE /* ti_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ti_logo.png; path = RemoteUnlockEstimote/lock_files/ti_logo.png; sourceTree = "<group>"; };
+		AC65E269D228DDACCB25BBCE /* ti_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ti_logo.png; path = RemoteUnlock/lock_files/ti_logo.png; sourceTree = "<group>"; };
 		AC65E2FD427577F8806E2D0D /* JSTPressureSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTPressureSensor.m; sourceTree = "<group>"; };
 		AC65E3C0BE36AE98BBE34AEA /* JSTHumiditySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTHumiditySensor.m; sourceTree = "<group>"; };
 		AC65E513356E447126B604F9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -84,7 +84,7 @@
 		CB281ED01849FC6E0095C6C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CB281ED11849FC6E0095C6C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CB281ED21849FC6E0095C6C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CB281ED51849FC6E0095C6C1 /* RemoteUnlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteUnlock-Info.plist"; sourceTree = "<group>"; };
+		CB281ED51849FC6E0095C6C1 /* RemoteUnlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RemoteUnlock-Info.plist"; sourceTree = "<group>"; };
 		CB281ED71849FC6E0095C6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB281ED91849FC6E0095C6C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB281EDB1849FC6E0095C6C1 /* RemoteUnlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteUnlock-Prefix.pch"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		CB281F031849FD9D0095C6C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CB281F051849FDB90095C6C1 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		CB281F09184A00290095C6C1 /* RemoteUnlockEstimote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RemoteUnlockEstimote.entitlements; sourceTree = "<group>"; };
+		CB281F09184A00290095C6C1 /* RemoteUnlockEstimote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file.entitlements; path = RemoteUnlockEstimote.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 				AC65EC616075A5B938B11DA2 /* t1.jpg */,
 			);
 			name = lock_files;
-			path = RemoteUnlockEstimote/lock_files;
+			path = RemoteUnlock/lock_files;
 			sourceTree = "<group>";
 		};
 		AC65E1EC7D2427F6F833D472 /* Sensors */ = {
@@ -175,7 +175,7 @@
 				40CA23F1184A2BCD009DFDDB /* lock.mp3 */,
 				40CA23F2184A2BCD009DFDDB /* lock.html */,
 				40CA23F3184A2BCD009DFDDB /* lock_files */,
-				CB281ED31849FC6E0095C6C1 /* RemoteUnlockEstimote */,
+				CB281ED31849FC6E0095C6C1 /* RemoteUnlock */,
 				CB281ECC1849FC6E0095C6C1 /* Frameworks */,
 				CB281ECB1849FC6E0095C6C1 /* Products */,
 				AC65ECB23AC8278B147B504C /* Device */,
@@ -214,7 +214,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		CB281ED31849FC6E0095C6C1 /* RemoteUnlockEstimote */ = {
+		CB281ED31849FC6E0095C6C1 /* RemoteUnlock */ = {
 			isa = PBXGroup;
 			children = (
 				CB281F09184A00290095C6C1 /* RemoteUnlockEstimote.entitlements */,
@@ -226,7 +226,7 @@
 				40CA2401184A2E79009DFDDB /* RUWindow.h */,
 				40CA2402184A2E79009DFDDB /* RUWindow.m */,
 			);
-			path = RemoteUnlockEstimote;
+			path = RemoteUnlock;
 			sourceTree = "<group>";
 		};
 		CB281ED41849FC6E0095C6C1 /* Supporting Files */ = {
