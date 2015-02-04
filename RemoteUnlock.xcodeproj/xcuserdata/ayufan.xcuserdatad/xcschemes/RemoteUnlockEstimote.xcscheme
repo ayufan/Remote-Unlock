@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CB281EC91849FC6E0095C6C1"
-               BuildableName = "RemoteUnlockEstimote.app"
-               BlueprintName = "RemoteUnlockEstimote"
-               ReferencedContainer = "container:RemoteUnlockEstimote.xcodeproj">
+               BuildableName = "RemoteUnlock.app"
+               BlueprintName = "RemoteUnlock"
+               ReferencedContainer = "container:RemoteUnlock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "CB281EEA1849FC6E0095C6C1"
                BuildableName = "RemoteUnlockEstimoteTests.xctest"
                BlueprintName = "RemoteUnlockEstimoteTests"
-               ReferencedContainer = "container:RemoteUnlockEstimote.xcodeproj">
+               ReferencedContainer = "container:RemoteUnlock.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CB281EC91849FC6E0095C6C1"
-            BuildableName = "RemoteUnlockEstimote.app"
-            BlueprintName = "RemoteUnlockEstimote"
-            ReferencedContainer = "container:RemoteUnlockEstimote.xcodeproj">
+            BuildableName = "RemoteUnlock.app"
+            BlueprintName = "RemoteUnlock"
+            ReferencedContainer = "container:RemoteUnlock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CB281EC91849FC6E0095C6C1"
-            BuildableName = "RemoteUnlockEstimote.app"
-            BlueprintName = "RemoteUnlockEstimote"
-            ReferencedContainer = "container:RemoteUnlockEstimote.xcodeproj">
+            BuildableName = "RemoteUnlock.app"
+            BlueprintName = "RemoteUnlock"
+            ReferencedContainer = "container:RemoteUnlock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CB281EC91849FC6E0095C6C1"
-            BuildableName = "RemoteUnlockEstimote.app"
-            BlueprintName = "RemoteUnlockEstimote"
-            ReferencedContainer = "container:RemoteUnlockEstimote.xcodeproj">
+            BuildableName = "RemoteUnlock.app"
+            BlueprintName = "RemoteUnlock"
+            ReferencedContainer = "container:RemoteUnlock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>900F73CB-26E7-4DC4-A5AA-E9DF4E907E52</string>
+	<string>BC9A3CA0-0109-4E26-ADC8-68616AE87A28</string>
 	<key>IDESourceControlProjectName</key>
-	<string>RemoteUnlockEstimote</string>
+	<string>RemoteUnlock</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</key>
-		<string>ssh://github.com/ayufan/Remote-Unlock.git</string>
+		<key>B0C54012479C74A58407F1DAA75B4AC507177E42</key>
+		<string>https://github.com/ayufan/Remote-Unlock.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RemoteUnlockEstimote.xcodeproj/project.xcworkspace</string>
+	<string>RemoteUnlock.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</key>
+		<key>B0C54012479C74A58407F1DAA75B4AC507177E42</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/ayufan/Remote-Unlock.git</string>
+	<string>https://github.com/ayufan/Remote-Unlock.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</string>
+	<string>B0C54012479C74A58407F1DAA75B4AC507177E42</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FC87F6BF-C84A-4FD8-9B7F-0E4FE3442B37</string>
+			<string>B0C54012479C74A58407F1DAA75B4AC507177E42</string>
 			<key>IDESourceControlWCCName</key>
-			<string>RemoteUnlockEstimote</string>
+			<string>Remote-Unlock</string>
 		</dict>
 	</array>
 </dict>

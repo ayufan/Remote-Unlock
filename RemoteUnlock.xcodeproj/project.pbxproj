@@ -14,8 +14,22 @@
 		40CA23FB184A2BCD009DFDDB /* estimote-logo-square.png in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */; };
 		40CA23FC184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */; };
 		40CA23FE184A2C22009DFDDB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA23FD184A2C22009DFDDB /* WebKit.framework */; };
-		40CA2400184A2C35009DFDDB /* libEstimoteMacSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */; };
 		40CA2403184A2E79009DFDDB /* RUWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CA2402184A2E79009DFDDB /* RUWindow.m */; };
+		AC65E022C7E27DD88607F086 /* JSTGyroscopeSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E06F76180603E58252A3 /* JSTGyroscopeSensor.m */; };
+		AC65E04B87AA6D0C5F620A46 /* JSTSensorTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65EBB6AAF52D9AEF39A722 /* JSTSensorTag.m */; };
+		AC65E19D466EFD39B54C8E9C /* JSTAccelerometerSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E1C4CDB81642E9F07F39 /* JSTAccelerometerSensor.m */; };
+		AC65E25DA6F46A9734F8D9B1 /* t1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC65EC616075A5B938B11DA2 /* t1.jpg */; };
+		AC65E5A7CBE09B79477AD336 /* JSTKeysSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E24CA870F8C8917D563D /* JSTKeysSensor.m */; };
+		AC65E5B9A3A4CE69CA3E9BA8 /* JSTSensorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E8AD783BFAB40F1D1C3C /* JSTSensorConstants.m */; };
+		AC65E7828609B780AECCBB59 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC65E513356E447126B604F9 /* CoreBluetooth.framework */; };
+		AC65E80E3EA8BB295BDD5456 /* CBUUID+StringRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65EFA349CF509A91BFBD34 /* CBUUID+StringRepresentation.m */; };
+		AC65E8E7BA5A2AD1AB4A9EF1 /* JSTBaseSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65EE76A1ED9EE375144952 /* JSTBaseSensor.m */; };
+		AC65E9377704C996CB59FE50 /* JSTPressureSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E2FD427577F8806E2D0D /* JSTPressureSensor.m */; };
+		AC65EAFA8E0698750AADEAEF /* JSTMagnetometerSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65EE10DA311946EDC00299 /* JSTMagnetometerSensor.m */; };
+		AC65ED59B2BA9E8E7475635E /* JSTSensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E6D01AA53F3752D6ABB3 /* JSTSensorManager.m */; };
+		AC65ED9FBA4489A04682CB87 /* JSTIRSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65EA7E9EBB04795D49183A /* JSTIRSensor.m */; };
+		AC65EE3AE3C4FB0AE2CB1D60 /* JSTHumiditySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC65E3C0BE36AE98BBE34AEA /* JSTHumiditySensor.m */; };
+		AC65EFC4ABF64A1F147E2925 /* ti_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC65E269D228DDACCB25BBCE /* ti_logo.png */; };
 		CB281ECE1849FC6E0095C6C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */; };
 		CB281ED81849FC6E0095C6C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB281ED61849FC6E0095C6C1 /* InfoPlist.strings */; };
 		CB281EDA1849FC6E0095C6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB281ED91849FC6E0095C6C1 /* main.m */; };
@@ -23,45 +37,66 @@
 		CB281EE11849FC6E0095C6C1 /* RUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB281EE01849FC6E0095C6C1 /* RUAppDelegate.m */; };
 		CB281EE41849FC6E0095C6C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB281EE21849FC6E0095C6C1 /* MainMenu.xib */; };
 		CB281EE61849FC6E0095C6C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB281EE51849FC6E0095C6C1 /* Images.xcassets */; };
-		CB281F021849FCA60095C6C1 /* libEstimoteMacSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F011849FCA60095C6C1 /* libEstimoteMacSDK.a */; };
 		CB281F041849FD9D0095C6C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F031849FD9D0095C6C1 /* CoreLocation.framework */; };
 		CB281F061849FDB90095C6C1 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F051849FDB90095C6C1 /* IOBluetooth.framework */; };
 		CB281F081849FDC90095C6C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */; };
-		CB4EDBE2184A36C30056E382 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = CB4EDBE1184A36C30056E382 /* app.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40CA23F0184A2BCD009DFDDB /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = unlock.mp3; path = RemoteUnlockEstimote/unlock.mp3; sourceTree = "<group>"; };
 		40CA23F1184A2BCD009DFDDB /* lock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lock.mp3; path = RemoteUnlockEstimote/lock.mp3; sourceTree = "<group>"; };
-		40CA23F2184A2BCD009DFDDB /* lock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = lock.html; path = RemoteUnlockEstimote/lock.html; sourceTree = "<group>"; };
+		40CA23F2184A2BCD009DFDDB /* lock.html */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = text.html; name = lock.html; path = RemoteUnlockEstimote/lock.html; sourceTree = "<group>"; };
 		40CA23F4184A2BCD009DFDDB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estimote-logo-square.png"; sourceTree = "<group>"; };
 		40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tumblr_mpoywoyEut1s56exfo1_400.gif; sourceTree = "<group>"; };
 		40CA23FD184A2C22009DFDDB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteMacSDK.a; path = EstimoteSDK/libEstimoteMacSDK.a; sourceTree = "<group>"; };
 		40CA2401184A2E79009DFDDB /* RUWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUWindow.h; sourceTree = "<group>"; };
 		40CA2402184A2E79009DFDDB /* RUWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUWindow.m; sourceTree = "<group>"; };
-		CB281ECA1849FC6E0095C6C1 /* RemoteUnlockEstimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteUnlockEstimote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC65E03473111B94709EA2DA /* JSTIRSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTIRSensor.h; sourceTree = "<group>"; };
+		AC65E06F76180603E58252A3 /* JSTGyroscopeSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTGyroscopeSensor.m; sourceTree = "<group>"; };
+		AC65E1C4CDB81642E9F07F39 /* JSTAccelerometerSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTAccelerometerSensor.m; sourceTree = "<group>"; };
+		AC65E24CA870F8C8917D563D /* JSTKeysSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTKeysSensor.m; sourceTree = "<group>"; };
+		AC65E269D228DDACCB25BBCE /* ti_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ti_logo.png; path = RemoteUnlockEstimote/lock_files/ti_logo.png; sourceTree = "<group>"; };
+		AC65E2FD427577F8806E2D0D /* JSTPressureSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTPressureSensor.m; sourceTree = "<group>"; };
+		AC65E3C0BE36AE98BBE34AEA /* JSTHumiditySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTHumiditySensor.m; sourceTree = "<group>"; };
+		AC65E513356E447126B604F9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AC65E6D01AA53F3752D6ABB3 /* JSTSensorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTSensorManager.m; sourceTree = "<group>"; };
+		AC65E84F3F544FCF19AACE17 /* JSTHumiditySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTHumiditySensor.h; sourceTree = "<group>"; };
+		AC65E8AAFEECECE5CB82FDBA /* JSTMagnetometerSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTMagnetometerSensor.h; sourceTree = "<group>"; };
+		AC65E8AD783BFAB40F1D1C3C /* JSTSensorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTSensorConstants.m; sourceTree = "<group>"; };
+		AC65E9E956108A8E4006885F /* JSTSensorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTSensorManager.h; sourceTree = "<group>"; };
+		AC65EA4DE132769074CF1BBF /* JSTGyroscopeSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTGyroscopeSensor.h; sourceTree = "<group>"; };
+		AC65EA7E9EBB04795D49183A /* JSTIRSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTIRSensor.m; sourceTree = "<group>"; };
+		AC65EBB6AAF52D9AEF39A722 /* JSTSensorTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTSensorTag.m; sourceTree = "<group>"; };
+		AC65EBB9034FE09EE4BF9F9D /* JSTSensorTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTSensorTag.h; sourceTree = "<group>"; };
+		AC65EBC883E2E20F4CC828A5 /* CBUUID+StringRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+StringRepresentation.h"; sourceTree = "<group>"; };
+		AC65EC373124A70C03F655FB /* JSTAccelerometerSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTAccelerometerSensor.h; sourceTree = "<group>"; };
+		AC65EC616075A5B938B11DA2 /* t1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t1.jpg; sourceTree = "<group>"; };
+		AC65EE10DA311946EDC00299 /* JSTMagnetometerSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTMagnetometerSensor.m; sourceTree = "<group>"; };
+		AC65EE76A1ED9EE375144952 /* JSTBaseSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTBaseSensor.m; sourceTree = "<group>"; };
+		AC65EE9CF44023ECD35FBC0D /* JSTBaseSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTBaseSensor.h; sourceTree = "<group>"; };
+		AC65EED19DC345F81DEA52E7 /* JSTKeysSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTKeysSensor.h; sourceTree = "<group>"; };
+		AC65EF090001CA231A45595E /* JSTSensorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTSensorConstants.h; sourceTree = "<group>"; };
+		AC65EF8093D9C4E3E8B1F0BD /* JSTPressureSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTPressureSensor.h; sourceTree = "<group>"; };
+		AC65EFA349CF509A91BFBD34 /* CBUUID+StringRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringRepresentation.m"; sourceTree = "<group>"; };
+		CB281ECA1849FC6E0095C6C1 /* RemoteUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CB281ED01849FC6E0095C6C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CB281ED11849FC6E0095C6C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CB281ED21849FC6E0095C6C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CB281ED51849FC6E0095C6C1 /* RemoteUnlockEstimote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteUnlockEstimote-Info.plist"; sourceTree = "<group>"; };
+		CB281ED51849FC6E0095C6C1 /* RemoteUnlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteUnlock-Info.plist"; sourceTree = "<group>"; };
 		CB281ED71849FC6E0095C6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB281ED91849FC6E0095C6C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB281EDB1849FC6E0095C6C1 /* RemoteUnlockEstimote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteUnlockEstimote-Prefix.pch"; sourceTree = "<group>"; };
+		CB281EDB1849FC6E0095C6C1 /* RemoteUnlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteUnlock-Prefix.pch"; sourceTree = "<group>"; };
 		CB281EDD1849FC6E0095C6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CB281EDF1849FC6E0095C6C1 /* RUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUAppDelegate.h; sourceTree = "<group>"; };
 		CB281EE01849FC6E0095C6C1 /* RUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUAppDelegate.m; sourceTree = "<group>"; };
 		CB281EE31849FC6E0095C6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CB281EE51849FC6E0095C6C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CB281EEC1849FC6E0095C6C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CB281F011849FCA60095C6C1 /* libEstimoteMacSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteMacSDK.a; path = EstimoteSDK/libEstimoteMacSDK.a; sourceTree = "<group>"; };
 		CB281F031849FD9D0095C6C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CB281F051849FDB90095C6C1 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CB281F09184A00290095C6C1 /* RemoteUnlockEstimote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RemoteUnlockEstimote.entitlements; sourceTree = "<group>"; };
-		CB4EDBE1184A36C30056E382 /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = app.icns; path = RemoteUnlockEstimote/app.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +104,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40CA2400184A2C35009DFDDB /* libEstimoteMacSDK.a in Frameworks */,
 				40CA23FE184A2C22009DFDDB /* WebKit.framework in Frameworks */,
 				CB281F081849FDC90095C6C1 /* SystemConfiguration.framework in Frameworks */,
 				CB281F061849FDB90095C6C1 /* IOBluetooth.framework in Frameworks */,
 				CB281F041849FD9D0095C6C1 /* CoreLocation.framework in Frameworks */,
-				CB281F021849FCA60095C6C1 /* libEstimoteMacSDK.a in Frameworks */,
 				CB281ECE1849FC6E0095C6C1 /* Cocoa.framework in Frameworks */,
+				AC65E7828609B780AECCBB59 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,30 +122,70 @@
 				40CA23F4184A2BCD009DFDDB /* background.jpg */,
 				40CA23F5184A2BCD009DFDDB /* estimote-logo-square.png */,
 				40CA23F6184A2BCD009DFDDB /* tumblr_mpoywoyEut1s56exfo1_400.gif */,
+				AC65EC616075A5B938B11DA2 /* t1.jpg */,
 			);
 			name = lock_files;
 			path = RemoteUnlockEstimote/lock_files;
 			sourceTree = "<group>";
 		};
+		AC65E1EC7D2427F6F833D472 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				AC65E03473111B94709EA2DA /* JSTIRSensor.h */,
+				AC65EA7E9EBB04795D49183A /* JSTIRSensor.m */,
+				AC65EE9CF44023ECD35FBC0D /* JSTBaseSensor.h */,
+				AC65EE76A1ED9EE375144952 /* JSTBaseSensor.m */,
+				AC65EED19DC345F81DEA52E7 /* JSTKeysSensor.h */,
+				AC65E24CA870F8C8917D563D /* JSTKeysSensor.m */,
+				AC65E84F3F544FCF19AACE17 /* JSTHumiditySensor.h */,
+				AC65E3C0BE36AE98BBE34AEA /* JSTHumiditySensor.m */,
+				AC65EF8093D9C4E3E8B1F0BD /* JSTPressureSensor.h */,
+				AC65E2FD427577F8806E2D0D /* JSTPressureSensor.m */,
+				AC65EA4DE132769074CF1BBF /* JSTGyroscopeSensor.h */,
+				AC65E06F76180603E58252A3 /* JSTGyroscopeSensor.m */,
+				AC65E8AAFEECECE5CB82FDBA /* JSTMagnetometerSensor.h */,
+				AC65EE10DA311946EDC00299 /* JSTMagnetometerSensor.m */,
+				AC65EC373124A70C03F655FB /* JSTAccelerometerSensor.h */,
+				AC65E1C4CDB81642E9F07F39 /* JSTAccelerometerSensor.m */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		AC65ECB23AC8278B147B504C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				AC65E1EC7D2427F6F833D472 /* Sensors */,
+				AC65EBC883E2E20F4CC828A5 /* CBUUID+StringRepresentation.h */,
+				AC65EFA349CF509A91BFBD34 /* CBUUID+StringRepresentation.m */,
+				AC65EF090001CA231A45595E /* JSTSensorConstants.h */,
+				AC65E8AD783BFAB40F1D1C3C /* JSTSensorConstants.m */,
+				AC65E9E956108A8E4006885F /* JSTSensorManager.h */,
+				AC65E6D01AA53F3752D6ABB3 /* JSTSensorManager.m */,
+				AC65EBB9034FE09EE4BF9F9D /* JSTSensorTag.h */,
+				AC65EBB6AAF52D9AEF39A722 /* JSTSensorTag.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
 		CB281EC11849FC6E0095C6C1 = {
 			isa = PBXGroup;
 			children = (
-				CB4EDBE1184A36C30056E382 /* app.icns */,
+				AC65E269D228DDACCB25BBCE /* ti_logo.png */,
 				40CA23F0184A2BCD009DFDDB /* unlock.mp3 */,
 				40CA23F1184A2BCD009DFDDB /* lock.mp3 */,
-				40CA23FF184A2C35009DFDDB /* libEstimoteMacSDK.a */,
 				40CA23F2184A2BCD009DFDDB /* lock.html */,
 				40CA23F3184A2BCD009DFDDB /* lock_files */,
 				CB281ED31849FC6E0095C6C1 /* RemoteUnlockEstimote */,
 				CB281ECC1849FC6E0095C6C1 /* Frameworks */,
 				CB281ECB1849FC6E0095C6C1 /* Products */,
+				AC65ECB23AC8278B147B504C /* Device */,
 			);
 			sourceTree = "<group>";
 		};
 		CB281ECB1849FC6E0095C6C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB281ECA1849FC6E0095C6C1 /* RemoteUnlockEstimote.app */,
+				CB281ECA1849FC6E0095C6C1 /* RemoteUnlock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,10 +197,9 @@
 				CB281F071849FDC90095C6C1 /* SystemConfiguration.framework */,
 				CB281F051849FDB90095C6C1 /* IOBluetooth.framework */,
 				CB281F031849FD9D0095C6C1 /* CoreLocation.framework */,
-				CB281F011849FCA60095C6C1 /* libEstimoteMacSDK.a */,
 				CB281ECD1849FC6E0095C6C1 /* Cocoa.framework */,
-				CB281EEC1849FC6E0095C6C1 /* XCTest.framework */,
 				CB281ECF1849FC6E0095C6C1 /* Other Frameworks */,
+				AC65E513356E447126B604F9 /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,10 +232,10 @@
 		CB281ED41849FC6E0095C6C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB281ED51849FC6E0095C6C1 /* RemoteUnlockEstimote-Info.plist */,
+				CB281ED51849FC6E0095C6C1 /* RemoteUnlock-Info.plist */,
 				CB281ED61849FC6E0095C6C1 /* InfoPlist.strings */,
 				CB281ED91849FC6E0095C6C1 /* main.m */,
-				CB281EDB1849FC6E0095C6C1 /* RemoteUnlockEstimote-Prefix.pch */,
+				CB281EDB1849FC6E0095C6C1 /* RemoteUnlock-Prefix.pch */,
 				CB281EDC1849FC6E0095C6C1 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -171,9 +244,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB281EC91849FC6E0095C6C1 /* RemoteUnlockEstimote */ = {
+		CB281EC91849FC6E0095C6C1 /* RemoteUnlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB281EFB1849FC6E0095C6C1 /* Build configuration list for PBXNativeTarget "RemoteUnlockEstimote" */;
+			buildConfigurationList = CB281EFB1849FC6E0095C6C1 /* Build configuration list for PBXNativeTarget "RemoteUnlock" */;
 			buildPhases = (
 				CB281EC61849FC6E0095C6C1 /* Sources */,
 				CB281EC71849FC6E0095C6C1 /* Frameworks */,
@@ -183,9 +256,9 @@
 			);
 			dependencies = (
 			);
-			name = RemoteUnlockEstimote;
+			name = RemoteUnlock;
 			productName = RemoteUnlockEstimote;
-			productReference = CB281ECA1849FC6E0095C6C1 /* RemoteUnlockEstimote.app */;
+			productReference = CB281ECA1849FC6E0095C6C1 /* RemoteUnlock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB281EC51849FC6E0095C6C1 /* Build configuration list for PBXProject "RemoteUnlockEstimote" */;
+			buildConfigurationList = CB281EC51849FC6E0095C6C1 /* Build configuration list for PBXProject "RemoteUnlock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,7 +293,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB281EC91849FC6E0095C6C1 /* RemoteUnlockEstimote */,
+				CB281EC91849FC6E0095C6C1 /* RemoteUnlock */,
 			);
 		};
 /* End PBXProject section */
@@ -238,9 +311,10 @@
 				CB281EDE1849FC6E0095C6C1 /* Credits.rtf in Resources */,
 				CB281EE41849FC6E0095C6C1 /* MainMenu.xib in Resources */,
 				40CA23FA184A2BCD009DFDDB /* background.jpg in Resources */,
-				CB4EDBE2184A36C30056E382 /* app.icns in Resources */,
 				40CA23F9184A2BCD009DFDDB /* lock.html in Resources */,
 				40CA23F8184A2BCD009DFDDB /* lock.mp3 in Resources */,
+				AC65EFC4ABF64A1F147E2925 /* ti_logo.png in Resources */,
+				AC65E25DA6F46A9734F8D9B1 /* t1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +328,18 @@
 				CB281EDA1849FC6E0095C6C1 /* main.m in Sources */,
 				CB281EE11849FC6E0095C6C1 /* RUAppDelegate.m in Sources */,
 				40CA2403184A2E79009DFDDB /* RUWindow.m in Sources */,
+				AC65ED9FBA4489A04682CB87 /* JSTIRSensor.m in Sources */,
+				AC65E8E7BA5A2AD1AB4A9EF1 /* JSTBaseSensor.m in Sources */,
+				AC65E5A7CBE09B79477AD336 /* JSTKeysSensor.m in Sources */,
+				AC65EE3AE3C4FB0AE2CB1D60 /* JSTHumiditySensor.m in Sources */,
+				AC65E9377704C996CB59FE50 /* JSTPressureSensor.m in Sources */,
+				AC65E022C7E27DD88607F086 /* JSTGyroscopeSensor.m in Sources */,
+				AC65EAFA8E0698750AADEAEF /* JSTMagnetometerSensor.m in Sources */,
+				AC65E19D466EFD39B54C8E9C /* JSTAccelerometerSensor.m in Sources */,
+				AC65E80E3EA8BB295BDD5456 /* CBUUID+StringRepresentation.m in Sources */,
+				AC65E5B9A3A4CE69CA3E9BA8 /* JSTSensorConstants.m in Sources */,
+				AC65ED59B2BA9E8E7475635E /* JSTSensorManager.m in Sources */,
+				AC65E04B87AA6D0C5F620A46 /* JSTSensorTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -350,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -362,14 +448,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RemoteUnlockEstimote/RemoteUnlockEstimote-Prefix.pch";
-				INFOPLIST_FILE = "RemoteUnlockEstimote/RemoteUnlockEstimote-Info.plist";
+				GCC_PREFIX_HEADER = "RemoteUnlockEstimote/RemoteUnlock-Prefix.pch";
+				INFOPLIST_FILE = "RemoteUnlockEstimote/RemoteUnlock-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/ayufan/Sources/RemoteUnlockEstimote/EstimoteSDK,
 					"/Users/konradrodzik/Remote-Unlock-New/EstimoteSDK",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RemoteUnlock;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/EstimoteSDK/Headers";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,14 +468,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RemoteUnlockEstimote/RemoteUnlockEstimote-Prefix.pch";
-				INFOPLIST_FILE = "RemoteUnlockEstimote/RemoteUnlockEstimote-Info.plist";
+				GCC_PREFIX_HEADER = "RemoteUnlockEstimote/RemoteUnlock-Prefix.pch";
+				INFOPLIST_FILE = "RemoteUnlockEstimote/RemoteUnlock-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/ayufan/Sources/RemoteUnlockEstimote/EstimoteSDK,
 					"/Users/konradrodzik/Remote-Unlock-New/EstimoteSDK",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RemoteUnlock;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/EstimoteSDK/Headers";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB281EC51849FC6E0095C6C1 /* Build configuration list for PBXProject "RemoteUnlockEstimote" */ = {
+		CB281EC51849FC6E0095C6C1 /* Build configuration list for PBXProject "RemoteUnlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB281EF91849FC6E0095C6C1 /* Debug */,
@@ -407,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB281EFB1849FC6E0095C6C1 /* Build configuration list for PBXNativeTarget "RemoteUnlockEstimote" */ = {
+		CB281EFB1849FC6E0095C6C1 /* Build configuration list for PBXNativeTarget "RemoteUnlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB281EFC1849FC6E0095C6C1 /* Debug */,
