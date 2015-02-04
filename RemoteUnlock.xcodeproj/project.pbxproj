@@ -448,7 +448,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RemoteUnlockEstimote/RemoteUnlock-Prefix.pch";
+				GCC_PREFIX_HEADER = "RemoteUnlock/RemoteUnlock-Prefix.pch";
 				INFOPLIST_FILE = "RemoteUnlockEstimote/RemoteUnlock-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,7 +468,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RemoteUnlockEstimote/RemoteUnlock-Prefix.pch";
+				GCC_PREFIX_HEADER = "RemoteUnlock/RemoteUnlock-Prefix.pch";
 				INFOPLIST_FILE = "RemoteUnlockEstimote/RemoteUnlock-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
